@@ -1,1 +1,27 @@
-h1 {color: blue;}
+body {
+    background-color: #D9BC00;
+}
+header{
+    background-color: #B3B2AE;
+    height: 120px;
+}
+header ul {margin-top: 0; padding: 0px}
+header li{display: inline; padding: 5px}
+nav a {text-decoration-line: none}
+nav a:hover {color: white}
+
+.centrado{
+        width: 980px;
+        background-color: #D18058;
+        margin: 0 auto;
+}
+
+.fondogris{
+        background-color: #28232E;
+        padding: 5px 16px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
