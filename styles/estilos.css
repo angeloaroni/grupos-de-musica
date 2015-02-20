@@ -19,7 +19,7 @@ nav a:hover {color: white}
 
 .fondogris{
         background-color: #28232E;
-        padding: 5px 16px;
+        padding: 5px 10px;
 }
 
 h1{
@@ -60,4 +60,29 @@ li img{
 .lugar{
  color: grey;   
 text-transform: uppercase;    
+}
+/*formularios*/
+#contacto{
+    width: 250px;
+    
+    margin: auto;
+   
+}
+input, select {
+    display: block;
+    width: 95%;
+    margin-bottom: 15px;
+}
+input[type=submit], input[type=reset]{
+    display: inline;
+    width: 100px;
+}
+input[type=reset]
+{
+    margin-right: 50px;
+}
+input[type=checkbox], input[type=radio], label[for=newsletter], label[for=hombre], label[for=mujer] 
+{
+    display: inline;
+    width: auto;
 }
