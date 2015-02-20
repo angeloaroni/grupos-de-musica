@@ -1,9 +1,10 @@
 body {
     background-color: #D9BC00;
+    font-family: 'Rock Salt', cursive;
 }
 header{
     background-color: #D18058;
-    height: 120px;
+    height: 200px;
 }
 header ul {margin-top: 0; padding: 0px}
 header li{display: inline; padding: 5px}
@@ -24,10 +25,12 @@ nav a:hover {color: white}
 h1{
     text-align: center;
     color: white;
+    font-family: 'Lobster', cursive;
 }
 h2{
     
     border-bottom:2px solid #D18058 ;
+    font-family: 'Lobster', cursive;
 }
 h1,h2,h3,h4{
     color: #D18058;
