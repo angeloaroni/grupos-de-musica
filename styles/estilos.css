@@ -86,3 +86,6 @@ input[type=checkbox], input[type=radio], label[for=newsletter], label[for=hombre
     display: inline;
     width: auto;
 }
+.grupos{
+    list-style-type: none;
+}
