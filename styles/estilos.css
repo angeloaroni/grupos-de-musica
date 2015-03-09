@@ -1,9 +1,9 @@
 body {
-    background-color: #D9BC00;
+    background-color: #087984;
     font-family: 'Rock Salt', cursive;
 }
 header{
-    background-color: #D18058;
+    background-color: #00ACBC;
     height: 200px;
 }
 header ul {margin-top: 0; padding: 0px}
@@ -13,12 +13,15 @@ nav a:hover {color: white}
 
 .centrado{
         width: 980px;
-        background-color: #D18058;
+        background-color: #00ACBC;
         margin: 0 auto;
 }
 
+.grupos a{
+    color: black;
+}
 .fondogris{
-        background-color: #28232E;
+        background-color: #414141;
         padding: 5px 10px;
 }
 
@@ -29,11 +32,11 @@ h1{
 }
 h2{
     
-    border-bottom:2px solid #D18058 ;
+    border-bottom:2px solid #087984 ;
     font-family: 'Lobster', cursive;
 }
 h1,h2,h3,h4{
-    color: #D18058;
+    color: #087984;
 }
 
 .logo{
@@ -48,14 +51,15 @@ li img{
     height: auto;
     vertical-align: middle;
     margin: 3px;
-    border: 4px solid #D18058;
+    border: 4px solid #087984;
     padding: 2px;
-    background-color: #D18058;
+    background-color: #087984;
         
 }
 /*ul.cantantes es igual a .cantantes*/
 .cantantes{
     list-style-type: none;
+    color: black;
 }
 .lugar{
  color: grey;   
