@@ -16,7 +16,7 @@ nav a {text-decoration-line: none}
 nav a:hover {color: white}
 
 .centrado{
-        width: 980px;
+        width: 100%;
         background-color: #00ACBC;
         margin: 0 auto;
 }
