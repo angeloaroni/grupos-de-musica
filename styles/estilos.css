@@ -137,6 +137,9 @@ input[type=checkbox], input[type=radio], label[for=newsletter], label[for=hombre
 .grupos{
     list-style-type: none;
 }
+video {
+	width:50%;
+}
 /* Media Queries */
 @media only screen and (min-width:480px) {
 
@@ -170,7 +173,7 @@ nav li:first-child a {
     WIDE: Menu
     ============ */
     .centrado {
-    border-bottom: 155px solid #00ACBC;
+    border-bottom: 150px solid #00ACBC;
     }
     nav {
         float:right;
@@ -182,8 +185,9 @@ nav li:first-child a {
         padding-right: 0;    
     }
     .fondogris {
-        /*display: inline-block;*/
-        width: 90%;
+        width: 88%;
+        margin-left: 5%;
+        margin-right: 6%;
         padding: 5px 10px;
         
     }
