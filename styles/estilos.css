@@ -1,5 +1,7 @@
-html{font-size: 16px;}/*1em=10px*/
-
+html{
+    font-size: 1em;/*1em=10px*/
+    color: #222;
+}
 body {
     font: 16px/26px;
     background-color: #087984;
@@ -53,17 +55,6 @@ nav a:hover {
     padding: 10px;
     
 }
-
-
-/*.centrado{
-        width: 980px;
-        background-color: #00ACBC;
-        margin: 0 auto;
-}
-.fondogris{
-        background-color: #414141;
-        padding: 5px 10px;
-}*/
 
 
 .grupos a{
@@ -137,6 +128,9 @@ input[type=checkbox], input[type=radio], label[for=newsletter], label[for=hombre
 .grupos{
     list-style-type: none;
 }
+video {
+	width:90%;
+}
 /* Media Queries */
 @media only screen and (min-width:480px) {
 
@@ -154,23 +148,22 @@ nav li:first-child a {
     margin-right: 0;
 }
 
-    /* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
+    /* Menu intermedio */
 
     nav ul li {
         display:inline;
     }
-
+    
+    video {
+	width:60%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
 
-/*  ============
-    WIDE: Menu
-    ============ */
+/* Menu */
     .centrado {
-    border-bottom: 155px solid #00ACBC;
+    border-bottom: 150px solid #00ACBC;
     }
     nav {
         float:right;
@@ -181,21 +174,23 @@ nav li:first-child a {
         width: 350px;
         padding-right: 0;    
     }
-    .fondogris {
-        /*display: inline-block;*/
-        margin-left: 20%;
-        margin-right: 10%;
-        width: 90%;
+    .fondogris {       
+        width: 88%;
+        margin-left: 5%;
+        margin-right: 6%;
+        margin-top: 100%
+
         padding: 5px 10px;
         
+    }
+    video {
+	width:50%;
     }
 
 }
 
 @media only screen and (min-width: 1140px) {
-/* ===============
-    Maximal Width
-   =============== */
+/* tamaño maximo */
     header {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
